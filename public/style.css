@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    padding-left: 50px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none !important;
+    padding-bottom: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+nav a:hover{
+    border-bottom: 2px solid yellow;
+    color: springgreen;
+}
+.card{
+    margin: 5px !important;
+    box-shadow: 4px 4px 5px lightblue;
+}
+.card img{
+    height: 182px !important;
+}
+nav a.active{
+    color: red;
+}
+nav a:checked{
+    border-bottom: 2px solid yellow;
+}
+.odd{
+    margin: 5px !important;
+     
+}
+h5{
+    font-size: 13px !important;
+    padding-bottom: 10px;
+}
+.zeronews{
+    height: 300px !important;
+}
+.card-text{
+    padding-bottom: 20px !important;
+}
+.roni{
+    color: red;
+    font-size: 22px;
+    background: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.roni2{
+    font-size: 17px;
+    margin-top: 31px;
+    text-align: justify;
+    text-shadow: -6px 0px 10px tomato;
+    line-height: 32px;
+}
+.newspera{
+    display: inline-block !important;
+    margin: 10px;
+    padding: 10px;
+}
+.newspera img{
+    width: 230px;
+}
+.newspera h6{
+    width: 220px;
+    padding-bottom: 20px;
+}
+.newspera p{
+    width: 230px;
+}
+.newspera a{
+    background-color: tomato;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 1px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+#cricket{
+     margin: 10px; 
+    display: inline-block;
+    width: 500px;
+}
+#cricket img{
+     width: 486px;
+     padding-bottom: 12px;
+     height: 181px;
+}
+
+.cricket h3{
+    color: yellow !important;
+    background: radial-gradient(black, transparent);
+    padding: 20px;
+}
+.cricket p{
+    text-align: justify;
+}
+ .riman{
+    width: 400px !important;
+   
+    margin: 10px;
+    display: inline-block !important;
+    box-shadow: -4px 5px 3px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+ }
+ .rr{
+    display: inline-block !important;
+    margin-left: 40px;
+ }
+ .riman p  {
+     
+    text-align: center;
+ }
+ .riman p img{
+    width: 300px ;
+    padding-top: 10px;
+ }
